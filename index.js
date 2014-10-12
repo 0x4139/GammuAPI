@@ -1,6 +1,6 @@
 var Hapi = require('hapi');
 var Joi =require('joi');
-var server = new Hapi.Server((process.env.PORT || 3000);
+var server = new Hapi.Server(process.env.PORT || 3000);
 var mysql = require ('mysql');
 var config =require('./config');
 
